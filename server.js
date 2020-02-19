@@ -12,5 +12,5 @@ const server = net.createServer(conn => {
         console.log('client left');
     });
 });
-
+console.log("port=>",port);
 server.listen(port);
